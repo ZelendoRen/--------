@@ -12,5 +12,6 @@ const solution = function (x, y) {
         let stringifyRes = String(prevSum);
         return ('Capitan Pron Gold Treasure ID: ' + stringifyRes)
     }
-    else ('Limits:  Each value of x and y must be at least 1 and no greater than 100,000. Please retry')
+   else
+        return 'Limits:  Each value of x and y must be at least 1 and no greater than 100,000. Please retry'
 }
